@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div id="login">
-    <form action="" method="post">
-        <label>
-            <input type="text" placeholder="手机号" id="telNumber" autocomplete="off"/>
-        </label>
-        <span id="warn"></span>
-        <hr>
-        <label>
-            <input type="text" placeholder="验证码" />
-        </label>
-        <button id="getNumber" type="button" value="点击获取" onclick="return pattern(this)">点击获取</button>
-        <hr>
-        <br/>
-        <button type="submit" class="log">登录</button>
-    </form>
-</div>
-<script src="js.js"></script>
+    <div id="login">
+        <form action="" method="post">
+            <label>
+                <input type="text" placeholder="手机号" id="telNumber" autocomplete="off" />
+            </label>
+            <span id="warn"></span>
+            <hr>
+            <hr>
+            <hr>
+            <label>
+                <input type="text" placeholder="验证码" />
+            </label>
+            <button id="getNumber" type="button" value="点击获取" onclick="return pattern(this)">点击获取</button>
+            <hr>
+            <br />
+            <button type="submit" class="log">登录</button>
+        </form>
+    </div>
+    <script src="js.js"></script>
 </body>
+
 </html>
